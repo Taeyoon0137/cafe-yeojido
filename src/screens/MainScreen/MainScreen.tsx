@@ -14,7 +14,7 @@ const P2 = { latitude: 37.565383, longitude: 126.976292 };
  * 네이버 지도 라이브러리를 테스트할 수 있도록 준비된 임시 화면입니다.
  * @returns NMapTestScreen
  */
-const NMapTestScreen = () => {
+const MainScreen = () => {
   const theme = useTheme();
   const styles = createStyleSheet({
     naverMap: { width: '100%', height: '100%' },
@@ -32,4 +32,4 @@ const NMapTestScreen = () => {
   return <NaverMapView style={styles.naverMap} center={{ ...P0, zoom: 16 }} {...mapConfig} />;
 };
 
-export default NMapTestScreen;
+export default MainScreen;

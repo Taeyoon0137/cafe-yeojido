@@ -19,8 +19,8 @@ const Stack = createStackNavigator<ScreenList>();
 const App = () => {
   return (
     <Stack.Navigator>
-      <Stack.Screen name="NMapTestScreen" component={Screens.NMapTestScreen} />
-      <Stack.Screen name="TestScreen" component={Screens.TestScreen} />
+      <Stack.Screen name={Screens.MainScreen.Name} component={Screens.MainScreen.Screen} />
+      <Stack.Screen name={Screens.TestScreen.Name} component={Screens.TestScreen.Screen} />
     </Stack.Navigator>
   );
 };
