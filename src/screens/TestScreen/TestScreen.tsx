@@ -8,6 +8,8 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
+import type { TestScreenProps } from './TestScreen.type';
+
 const Section: React.FC<{
   title: string;
 }> = ({ children, title }) => {
@@ -38,7 +40,7 @@ const Section: React.FC<{
   );
 };
 
-const TestScreen = () => {
+const TestScreen = ({ ...props }: TestScreenProps) => {
   const isDarkMode = useColorScheme() === 'dark';
 
   const backgroundStyle = {
