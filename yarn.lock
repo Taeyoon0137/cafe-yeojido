@@ -1627,6 +1627,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/recoil@npm:^0.0.9":
+  version: 0.0.9
+  resolution: "@types/recoil@npm:0.0.9"
+  dependencies:
+    recoil: "*"
+  checksum: f4209a72dbbef74f3ba128678b0e9a24752273e5ae468c8ed51a6e5562561c214c250218224664410ca4d7f5f3764c1f657264bca0e09e63d52bfb53412e7cac
+  languageName: node
+  linkType: hard
+
 "@types/scheduler@npm:*":
   version: 0.16.2
   resolution: "@types/scheduler@npm:0.16.2"
@@ -2552,6 +2561,7 @@ __metadata:
     "@react-navigation/stack": ^6.2.1
     "@types/react-native": ^0.67.3
     "@types/react-test-renderer": ^17.0.1
+    "@types/recoil": ^0.0.9
     "@typescript-eslint/eslint-plugin": ^5.17.0
     "@typescript-eslint/parser": ^5.17.0
     babel-plugin-module-resolver: ^4.1.0
@@ -2565,7 +2575,9 @@ __metadata:
     react-native-safe-area-context: ^4.2.5
     react-native-screen: ^1.0.1
     react-test-renderer: 17.0.2
+    recoil: ^0.7.3
     typescript: ^4.4.4
+    wonderful-tools: ^0.0.1-alpha.14
   languageName: unknown
   linkType: soft
 
@@ -4135,6 +4147,13 @@ __metadata:
   version: 4.2.10
   resolution: "graceful-fs@npm:4.2.10"
   checksum: 3f109d70ae123951905d85032ebeae3c2a5a7a997430df00ea30df0e3a6c60cf6689b109654d6fdacd28810a053348c4d14642da1d075049e6be1ba5216218da
+  languageName: node
+  linkType: hard
+
+"hamt_plus@npm:1.0.2":
+  version: 1.0.2
+  resolution: "hamt_plus@npm:1.0.2"
+  checksum: af26ea32db03009019cc83dfa9411521a2fa16079443de1a502c9be46d8b3c975acda8ed93fc5750ef08d3186d35901e2d8cfe717dd54bea67b358601fa74e4c
   languageName: node
   linkType: hard
 
@@ -6827,6 +6846,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"recoil@npm:*, recoil@npm:^0.7.3":
+  version: 0.7.3
+  resolution: "recoil@npm:0.7.3"
+  dependencies:
+    hamt_plus: 1.0.2
+  peerDependencies:
+    react: ">=16.13.1"
+  peerDependenciesMeta:
+    react-dom:
+      optional: true
+    react-native:
+      optional: true
+  checksum: 6f48077eea4da8a4b0434eb9567210b74d603086bf5760810719bb12cc74d31b93291e7b80d26caa1e3b7e8cf3ec5fc44308fae8be22228cbcc64c78b048751e
+  languageName: node
+  linkType: hard
+
 "regenerate-unicode-properties@npm:^10.0.1":
   version: 10.0.1
   resolution: "regenerate-unicode-properties@npm:10.0.1"
@@ -8236,6 +8271,13 @@ __metadata:
   dependencies:
     string-width: ^1.0.2 || 2 || 3 || 4
   checksum: d5fc37cd561f9daee3c80e03b92ed3e84d80dde3365a8767263d03dacfc8fa06b065ffe1df00d8c2a09f731482fcacae745abfbb478d4af36d0a891fad4834d3
+  languageName: node
+  linkType: hard
+
+"wonderful-tools@npm:^0.0.1-alpha.14":
+  version: 0.0.1-alpha.14
+  resolution: "wonderful-tools@npm:0.0.1-alpha.14"
+  checksum: 1a3fe6dd98aaf698179a08c6f1101a7df2d0976c78c06b3b57dc68ae302e3c0eb53746a85f7832e7d3d5d0befe2d14f30a49cd197917f5cc176fa13583f1ecac
   languageName: node
   linkType: hard
 

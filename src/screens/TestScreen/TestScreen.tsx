@@ -1,3 +1,9 @@
+/**
+ * 이 화면은 React-Native에서 기본적으로 제공하는
+ * 테스트 화면을 그대로 옮긴 것입니다.
+ * 애플리케이션 로직과 관계가 없으며, 오로지 테스트를 위해 삽입되었습니다.
+ */
+
 import React from 'react';
 import { SafeAreaView, ScrollView, StatusBar, StyleSheet, Text, useColorScheme, View } from 'react-native';
 import {
