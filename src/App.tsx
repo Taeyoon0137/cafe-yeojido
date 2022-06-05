@@ -5,6 +5,8 @@ import { ScreenList } from '@types';
 
 import * as Screens from './screens';
 
+import type { StackNavigationOptions } from '@react-navigation/stack';
+
 /**
  * 스택 네비게이터
  * @react-navigation에서 제공하는 스택 네비게이터를 선언합니다.
@@ -17,8 +19,12 @@ const Stack = createStackNavigator<ScreenList>();
  * @returns App
  */
 const App = () => {
+  const options: StackNavigationOptions = {
+    headerShown: false,
+  };
+
   return (
-    <Stack.Navigator>
+    <Stack.Navigator screenOptions={options}>
       <Stack.Screen name={Screens.MainScreen.Name} component={Screens.MainScreen.Screen} />
       <Stack.Screen name={Screens.TestScreen.Name} component={Screens.TestScreen.Screen} />
     </Stack.Navigator>
