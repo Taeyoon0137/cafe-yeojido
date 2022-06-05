@@ -1,6 +1,6 @@
 {
   "importSorter.generalConfiguration.configurationFilePath": "./.vscode/import-sorter.json",
-  "cSpell.words": ["cafeyeojido"],
+  "cSpell.words": ["cafeyeojido", "nmap"],
   "files.exclude": {
     "**/.git": true,
     "**/.svn": true,
